@@ -11,13 +11,13 @@ export default function NavBar() {
 
             <ul className="flex white">
                 <li className="green">
-                    <Link href="/">{"Resume"}</Link>
+                    <Link href="/Resume">{"Resume"}</Link>
                 </li>
                 <li>
-                    <Link href="/#about">{"Projects"}</Link>
+                    <Link href="/Projects">{"Projects"}</Link>
                 </li>
                 <li>
-                    <Link href="/#about">{"Contact"}</Link>
+                    <Link href="/Contact">{"Contact"}</Link>
                 </li>
             </ul>
         </nav>
