@@ -7,20 +7,19 @@ export default function About() {
             <div className="flex">
                 <div className="flex-full">
                     <AboutCard
-                        title="UX/UI Design"
-                        icon="/icons/design.svg"
-                        description="I create design  products with unique ideas."
-                        projects={7} />
+                        title="Education"
+                        description="M.S. Information Technology (Information system management)"
+                        projects= "Arizona State University" />
                     <AboutCard
                         title="Web Design"
-                        icon="/icons/code.svg"
+                        
                         description="I develop Front-End with coding super smooth."
-                        projects={10} />
+                        projects="" />
                     <AboutCard
                         title="Mobile"
-                        icon="/icons/phone.svg"
+                        
                         description="I develop cross-platform mobile applications."
-                        projects={7} />
+                        projects="" />
                 </div>
                 
                 <div className="flex-full about-text">
@@ -40,17 +39,16 @@ export default function About() {
 
 type Props = {
     title: string,
-    icon: string | StaticImageData,
     description: string,
-    projects: number
+    projects: string
 }
 
-function AboutCard ({title, icon, description, projects} : Props) {
+function AboutCard ({title, description, projects} : Props) {
     return(
         <div className="light-bg about-card">
             <div className="flex justify-space">
                 <h3 className="green">{title}</h3>
-                <Image src={icon} width={28} height={28} alt={title} />
+                
             </div>
             <p className="white">{description}</p>
             <span className="gray">{projects.toString()} projects</span>

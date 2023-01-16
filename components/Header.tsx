@@ -16,9 +16,9 @@ export default function Header() {
                     <p style={{fontFamily: "Calibri Light", fontSize: "15px"}}>I'm a paragraph. Click here to add your own text and edit me.
                     <br/>I'm a great place for you to tell a story and let your
                     <br/>users know a little more about you</p>
-                    <Link href={"/#about"}><button style={{backgroundColor:"#ffa027", cursor: "pointer"}}>Resume</button></Link>
-                    <button style={{backgroundColor:"#ff2a2a", margin: "10px", cursor: "pointer"}}>Projects</button>
-                    <button style={{backgroundColor:"#7FD7DD", cursor: "pointer"}}>Contact</button>
+                    <Link href={"/Resume"}><button style={{backgroundColor:"#ffa027", cursor: "pointer"}}>Resume</button></Link>
+                    <Link href={"/Projects"}><button style={{backgroundColor:"#ff2a2a", margin: "10px", cursor: "pointer"}}>Projects</button></Link>
+                    <Link href={"/Contact"}><button style={{backgroundColor:"#7FD7DD", cursor: "pointer"}}>Contact</button></Link>
                 </div>
             </div>
             
