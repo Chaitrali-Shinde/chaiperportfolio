@@ -12,7 +12,7 @@ export default function contact() {
             <ul className="flex contactPadding">
                 <li><a href="tel:6028162209" target="_blank" rel="noreferrer">
                         <Image src="/icons/phone.svg" width={150} height={150} alt="phone-icon" /> </a>
-                    <div className="contactText contactSpan">Contact<br/>6028162209</div>
+                    <div className="contactText contactSpan">Contact<br/>209</div>
                 </li>
                 
                 <li>
