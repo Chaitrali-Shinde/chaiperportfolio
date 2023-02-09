@@ -1,21 +1,39 @@
 import Link from "next/link";
 import React from "react";  
 import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
+import Image from "next/image";
 
-export default function Header() {
+export default function contact() {
     return (
         <header>
             <NavBar />
-            <div className="header flex light-bg">
-            <div className="resume-header">
-                <h1>Chaitrali Ganesh Shinde</h1>
-                <a href="https://linkedin.com/in/chaitrali-shinde">linkedin.com/in/chaitrali-shinde</a><br/>
-                <a href="https://github.com/Chaitrali-Shinde">github.com/Chaitrali-Shinde</a>
-                <p>cshinde2@asu.edu</p>
-                <p>602-816-2209</p>
-                </div>
-            </div>
+            
+            <ul className="flex contactPadding">
+                <li><a href="tel:6028162209" target="_blank" rel="noreferrer">
+                        <Image src="/icons/phone.svg" width={150} height={150} alt="phone-icon" /> </a>
+                    <div className="contactText contactSpan">Contact<br/>6028162209</div>
+                </li>
+                
+                <li>
+                    <a href="https://www.linkedin.com/in/chaitrali-shinde" target="_blank" rel="noreferrer">
+                        <Image src="/icons/linkedin.svg" width={150} height={150}  alt="linkedin-icon" />
+                        <div className="contactText contactSpan">Message<br/>chaitrali-shinde</div>
 
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:chai.shinde100@gmail.com" target="_blank" rel="noreferrer">
+                        <Image src="/icons/gmail.svg" width={150} height={150} alt="gmail-icon" />
+                        <div className="contactText contactSpan">Mail<br/> chai.shinde100@gmail.com</div>
+
+                    </a>
+                </li>
+            </ul>
+        
+            <Footer/>
         </header>
+      
+       
     )
 }

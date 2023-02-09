@@ -16,6 +16,7 @@ const Home: NextPage = () => {
       <div style={{ flex: 1, backgroundColor: "#cccccc", height: "1.5px"}} />
       {/* Footer */}
       <Footer />
+      
     </>
   )
 }

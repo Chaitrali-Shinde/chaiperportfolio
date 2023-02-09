@@ -22,7 +22,11 @@ h1, h2, h3, h4, h5, h6, p {
 .light-bg {
   background-color: #eff0f3;
 }
-
+.contact-bg {
+  background-color:    #0e6655  ;
+  width: '100%';
+  height: "100%";
+}
 .gray {
   color: #777777;
 }
@@ -33,9 +37,18 @@ h1, h2, h3, h4, h5, h6, p {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+
 }
 .flex-full {
   flex: 1;
+}
+.contactPadding{
+  display: flex;  
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 8%;
+  padding-top: 10rem;
 }
 .justify-space {
   justify-content: space-between;
@@ -43,7 +56,20 @@ h1, h2, h3, h4, h5, h6, p {
 .copyright{
   font-family: bahnschrift;
   font-size: small;
-  color: #515151;
+  color: #616161;
+  justify-self: center;
+  
+}
+.contactText{
+  font-family: bahnschrift;
+  font-size: medium ;
+  color:   #5d6d7e    ;
+  justify-self: center;
+  
+}
+.contactSpan{
+  text-align: center;
+
 }
 .hello {
   font-size: 95px;
@@ -53,6 +79,9 @@ h1, h2, h3, h4, h5, h6, p {
 section {
   padding: 5rem 5rem;
 }
+ul{
+  list-style-type:none;
+  }
 button {
   border-radius: 50%;
   font-weight: 600;
@@ -83,6 +112,7 @@ nav ul li {
   align-content: center;
   padding-bottom: 8%;
 }
+
 .header h1 {
   margin: auto;
   font-size: 3rem;
@@ -154,6 +184,10 @@ nav ul li {
 /* Footer */
 footer {
   padding: 2rem 5rem;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 100px;
 }
 footer span {
   font-size: 1rem;

@@ -26,7 +26,8 @@ export default function Header() {
                     </p>
                     <Link href={"/Resume"}><button style={{backgroundColor:"#ffa027", cursor: "pointer"}}>Resume</button></Link>
                     <Link href={"/Projects"}><button style={{backgroundColor:"#ff2a2a", margin: "10px", cursor: "pointer"}}>Projects</button></Link>
-                    <Link href={"/Contact"}><button style={{backgroundColor:"#7FD7DD", cursor: "pointer"}}>Contact</button></Link>
+                    <Link href={"/Contact"}><button style={{backgroundColor:"#7FD7DD", cursor: "pointer"}}>
+                        Contact</button></Link>
                 </div>
             </div>
             
