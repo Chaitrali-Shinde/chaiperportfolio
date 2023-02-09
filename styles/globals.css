@@ -5,9 +5,20 @@ body {
   margin: 0;
   font-family: bahnschrift;
   font-style: bold;
+  background-color: #eff0f3;
 }
 * {
   box-sizing: border-box;
+}
+.resume-title{
+  font-family: bahnschrift;
+  font-weight: bold;
+  font-size: medium;
+  color:    #34495e     ;
+}
+.resume-content{
+  font-family: bahnschrift;
+  color:    #34495e     ;
 }
 a {
   color: inherit;
@@ -89,6 +100,7 @@ button {
   width: 150px;
   height: 150px;
   border-color: #0b0b0b;
+  border-width: 0.1cap;
   font-family: bahnschrift;
 }
 
